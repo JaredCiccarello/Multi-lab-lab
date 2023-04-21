@@ -49,7 +49,10 @@ function handleImageClick(event) {
       state.saveToLocalStorage();
     }
   }
+  console.log(imageClicked);
 }
 
 renderProductImages();
 imgContainer.addEventListener('click', handleImageClick);
+
+console.log(state);
